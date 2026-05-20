@@ -18,7 +18,7 @@ function App() {
           <Route   path = "/register"  element = {<Registro/>}/>
           <Route   path = "/recovery"  element = {<RecuperarContraseña/>}/>
           <Route   path = "/password-code"  element = {<Codigo/>}/>
-          <Route   path = "/password-confirm"  element = {<Contraseña/>}/>
+          <Route   path = "/new-password"  element = {<Contraseña/>}/>
           <Route   path = "/dashboard"  element = {<Dashbaord/>}/>
          </Routes>
     

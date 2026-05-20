@@ -11,21 +11,21 @@ import {
 
 
 
-function RecuperarContraseña (){
+function Codigo (){
 
     const navigate = useNavigate();
 
-    const [email, setEmail] = useState("")
+    const [code, setCode] = useState("")
 
-    const handleRecovery = (e) => {
+    const verifyCode = (e) => {
 
         e.preventDefault();
 
-        if( email === "admin@gmail.com"){
+        if( code === "12345"){
 
-            alert("Se envio el codigo a tu correo")
+            alert("Codigo correcto")
 
-            navigate("/password-code")
+            navigate("/new-password")
 
         }
 
@@ -41,9 +41,9 @@ function RecuperarContraseña (){
 
         <Card>
 
-        <form onSubmit={handleRecovery}><h2>Recuperar Contraseña</h2>
+        <form onSubmit={verifyCode}><h2>Verificar Codigo</h2>
 
-        <Input   type= "email" placeholder= "correo" value={email}   onChange={(e) => setEmail (e.target.value)} />
+        <Input   type= "text" placeholder= "codigo" value={code}   onChange={(e) => setCode (e.target.value)} />
 
         <Button   type= "submit" text= "enviar codigo">
 
@@ -58,4 +58,4 @@ function RecuperarContraseña (){
 }
 
 
-export default RecuperarContraseña;
+export default Codigo;

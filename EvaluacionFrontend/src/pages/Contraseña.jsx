@@ -41,7 +41,7 @@ function NuevaContraseña () {
         "Contraseña actualizada correctamente"
     )
 
-    navigate("/")
+    navigate("/login")
 
 
 
