@@ -28,6 +28,27 @@ import {
         else {
             alert ("Codigo incorrecto")
         }
-    }
+    };
+
+    return (
+
+        <div className="container">
+
+            <Card>
+
+            <form onSubmit={verifyCode}><h2>Verificar Codigo</h2>
+
+            <Input  type="text"   placeholder="Codigo"  value={code}  onChange={(e) => setCode(e.target.value)} />
+            
+            <Button    type="submit" text ="Verificar codigo"/>
+
+
+            </form>
+            </Card>
+        </div>
+    )
 
   }
+
+
+  export default CodigoContraseña;
