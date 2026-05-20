@@ -15,9 +15,8 @@ function NuevaContraseña () {
     const navigate = useNavigate();
 
     const [
-
     newPassword,
-    setNewPassword,
+    setNewPassword
     ] = useState("");
 
 
@@ -73,7 +72,8 @@ return (
             }
           />
 
-        <Button   type= "submit" text= "cambiar contraseña"/>
+        <Button   type= "submit" text= "cambiar Contraseña"/>
+
 
     </form>
     </Card>

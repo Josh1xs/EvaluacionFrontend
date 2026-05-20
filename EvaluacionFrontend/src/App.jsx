@@ -16,15 +16,15 @@ function App() {
          <Routes>
           <Route   path = "/"  element = {<Login/>}/>
           <Route   path = "/register"  element = {<Registro/>}/>
-          <Route   path = "/"  element = {<Login/>}/>
-
-           
-         
+          <Route   path = "/recovery"  element = {<RecuperarContraseña/>}/>
+          <Route   path = "/password-code"  element = {<Codigo/>}/>
+          <Route   path = "/password-confirm"  element = {<Contraseña/>}/>
+          <Route   path = "/dashboard"  element = {<Dashbaord/>}/>
          </Routes>
-         
+    
          </BrowserRouter>
     </>
   )
 }
 
-export default App
+export default App;

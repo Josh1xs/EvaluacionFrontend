@@ -1,14 +1,13 @@
 import { useNavigate } from "react-router-dom";
-
 import Card from "../components/Card"
 
 
 function Dashbaord () {
     const navigate = useNavigate();
-
     const logout = () => {
-        navigate("/");
+        navigate("/login")
     }
+
 };
 
 
