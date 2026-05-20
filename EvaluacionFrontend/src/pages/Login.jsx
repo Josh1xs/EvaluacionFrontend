@@ -19,8 +19,8 @@ function Login() {
   const [password, setPassword] =
     useState("");
 
-  const fakeUser = {
-    email: "admin@gmail.com",
+  const User = {
+    email: "joshua@gmail.com",
     password: "123456",
   };
 
@@ -29,8 +29,8 @@ function Login() {
     e.preventDefault();
 
     if (
-      email === fakeUser.email &&
-      password === fakeUser.password
+      email ===  User.email &&
+      password === User.password
     ) {
 
       alert("Inicio de sesión exitoso");

@@ -21,7 +21,7 @@ function RecuperarContraseña (){
 
         e.preventDefault();
 
-        if( email === "admin@gmail.com"){
+        if( email === "joshua@gmail.com"){
 
             alert("Se envio el codigo a tu correo")
 

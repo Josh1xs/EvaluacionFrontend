@@ -40,7 +40,7 @@ function Register () {
         alert("Usuario registrado correctamente")
 
 
-        navigate("/")
+        navigate("/login")
 
     }
 
