@@ -43,7 +43,7 @@ function NuevaContraseña () {
 
     navigate("/")
 
-}
+
 
 
 return (
@@ -80,6 +80,6 @@ return (
 
     </div>
 )
-
+}
 
 export default NuevaContraseña;
